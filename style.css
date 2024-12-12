@@ -1,0 +1,156 @@
+.popupTotal {
+  border: none;
+  box-shadow: 10px 10px 90px rgba(0, 0, 0, 0.39);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.title-popup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.maps {
+  display: flex;
+  gap: 30px;
+}
+
+.compra-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.compra-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.map-left-total {
+  display: flex;
+  background-color: #ebebeb;
+  border-radius: 15px;
+  padding: 20px;
+  gap: 10px;
+}
+.map-right-total {
+  display: flex;
+  background-color: #ebebeb;
+  border-radius: 15px;
+  padding: 19px;
+  gap: 10px;
+}
+
+.text-popup-padrão {
+  font-family: montserrat;
+  color: #4574b8;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  flex-wrap: wrap;
+}
+
+.closer {
+  cursor: pointer;
+  font-family: montserrat;
+  color: #4574b8;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 28px;
+  padding-right: 10px;
+}
+
+.text-popup-padrão2 {
+  font-family: montserrat;
+  color: #4574b8;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.popup {
+  padding: 10px;
+}
+@media (max-width: 950px) {
+  .maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .popupTotal {
+    max-width: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .popup {
+    padding: 3%;
+  }
+  .map-left-total {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%; /* Garante que o elemento ocupe toda a largura possível */
+    margin-top: 10px;
+  }
+
+  .map-right-total {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%; /* Garante que o elemento ocupe toda a largura possível */
+  }
+
+  .compra-left {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .map-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-popup-padrão {
+    font-family: montserrat;
+    color: #4574b8;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin: 5px;
+  }
+
+  .closer {
+    font-size: 20px;
+    margin-top: -40px;
+    padding: 0;
+  }
+  .text-popup-padrão2 {
+    font-family: montserrat;
+    color: #4574b8;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-right: 15px;
+  }
+}
